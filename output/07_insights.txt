@@ -1,0 +1,5 @@
+① 説明カバレッジ: 78% (45/58) - description が未定義のスキルが残り13個
+② 重複配置: 53 個のスキルが複数場所で重複 - ['android-ftp-sync', 'ax', 'bqmlite', 'char-distribution', 'check-repos']...
+③ 壊れリンク: 0 個のシンボリックリンクが実体消失
+④ UiPath 集中: 24/58 (41%) のスキルが UiPath - 他分野のスキルが希薄
+⑤ 平均規模: 121 行/SKILL.md - 簡潔な定義と冗長な定義の分散が目立つ

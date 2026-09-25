@@ -1,0 +1,317 @@
+{
+  "timestamp": "2026-09-25T02:38:20.795627+00:00",
+  "summary": {
+    "total_unique": 104,
+    "crawled": 61,
+    "duplicates_count": 53,
+    "broken_symlinks_count": 0,
+    "no_skill_md_count": 13,
+    "fm_issues_count": 0,
+    "opencode_count": 59,
+    "wsl_count": 104
+  },
+  "duplicates": {
+    "android-ftp-sync": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "ax": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "bqmlite": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "char-distribution": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "check-repos": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "footer": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "issue-md2wf": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "lx": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "mimic-me": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "mx": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "outlook-draft": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "pain-sense": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "pi-config": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "pi-config-memo": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "python-status": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "recap": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "serve-html": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "skill-consolidator": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "skill-crawler": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "tips-word": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "tsumete": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-admin": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-agents": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-api-workflow": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-automation-discovery": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-automationhub": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-coded-apps": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-connector-builder": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-feedback": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-functions": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-governance": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-human-in-the-loop": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-insights": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-ixp": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-maestro-bpmn": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-maestro-case": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-maestro-flow": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-mcp-servers": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-planner": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-platform": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-process-mining": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-review": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-rpa": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-skill-catalog": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-solution": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-tasks": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-test": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "uipath-troubleshoot": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "vocab-highlight": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "win-tips": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "writing": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "wsl-migrate": [
+      "opencode/skills",
+      "wsl/.skills"
+    ],
+    "wx": [
+      "opencode/skills",
+      "wsl/.skills"
+    ]
+  },
+  "broken": [],
+  "no_skill_md": [
+    {
+      "name": "android-ftp-sync",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "bqmlite-go",
+      "locations": [
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "check-repos",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "idol-lab",
+      "locations": [
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "idol-playlist",
+      "locations": [
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "issue-md2wf",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "outlook-draft",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "output",
+      "locations": [
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "pi-config",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "python-status",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "rakugo-generator",
+      "locations": [
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "serve-html",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    },
+    {
+      "name": "wsl-migrate",
+      "locations": [
+        "opencode/skills",
+        "wsl/.skills"
+      ]
+    }
+  ],
+  "fm_issues": []
+}

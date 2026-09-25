@@ -1,0 +1,14 @@
+name	opencode	ws
+android-ftp-sync	Y	Y
+bqmlite-go	N	Y
+check-repos	Y	Y
+idol-lab	N	Y
+idol-playlist	N	Y
+issue-md2wf	Y	Y
+outlook-draft	Y	Y
+output	N	Y
+pi-config	Y	Y
+python-status	Y	Y
+rakugo-generator	N	Y
+serve-html	Y	Y
+wsl-migrate	Y	Y

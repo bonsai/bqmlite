@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-25T02:38:20.834861+00:00",
+  "insights": [
+    "① 説明カバレッジ: 78% (45/58) - description が未定義のスキルが残り13個",
+    "② 重複配置: 53 個のスキルが複数場所で重複 - ['android-ftp-sync', 'ax', 'bqmlite', 'char-distribution', 'check-repos']...",
+    "③ 壊れリンク: 0 個のシンボリックリンクが実体消失",
+    "④ UiPath 集中: 24/58 (41%) のスキルが UiPath - 他分野のスキルが希薄",
+    "⑤ 平均規模: 121 行/SKILL.md - 簡潔な定義と冗長な定義の分散が目立つ"
+  ],
+  "category_distribution": {
+    "UiPath": 27,
+    "UiPath-Other": 24,
+    "Other": 11,
+    "Infra": 4,
+    "UiPath-Maestro": 3,
+    "BQMLite": 2,
+    "SkillTools": 2,
+    "AX": 1,
+    "CharDist": 1,
+    "Footer": 1,
+    "Grill": 1,
+    "LX": 1,
+    "Mimic": 1,
+    "MX": 1,
+    "Pain": 1,
+    "Recap": 1,
+    "TipsWord": 1,
+    "Tsumete": 1,
+    "Vocab": 1,
+    "WinTips": 1,
+    "Writing": 1,
+    "WX": 1
+  },
+  "statistics": {
+    "total_skills": 58,
+    "with_description": 45,
+    "with_skill_md": 45,
+    "coverage_pct": 77.6,
+    "avg_line_count": 120.8,
+    "duplicates": 53,
+    "broken_symlinks": 0,
+    "uipath_count": 24
+  }
+}
