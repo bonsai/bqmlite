@@ -1,0 +1,53 @@
+sid,hash8,name,description,categories,status,file_count,total_bytes,plugins,locations,crawled_at
+ax,5e85370e,ax,AX（Agent Operational Ontology / エージェント運用オントロジー）。リポジトリ bonsai/AX の定義に沿って、エージェントが「何であるか（BE）」と「何ができるか（D,rpa,OK,1,7450,,wsl/.skills,2026-09-25T02:50:23
+bqmlite,7dc95ab4,bqmlite,ローカルの SQLite/CSV を BQMLite (bonsai/bqmlite-go) で学習・予測する。BigQuery も MLフレームワークも使わず、決定的(deterministic)に,ai,OK,2,7768,,wsl/.skills,2026-09-25T02:50:23
+char-distribution,c0d1c1f7,char-distribution,文章中の文字種・言語の割合（英語/日本語/中文/emoji/その他）を簡易計測する。文字分散、言語比率、文字種の割合、英語と日本語のミックス確認、「何%英語か」「言語の割合を測って」「lang rat,other,OK,34,41021,,wsl/.skills,2026-09-25T02:50:23
+ds-insighter,a6a62376,ds-insighter,解析・洞察エンジン。sync-db の JSONL canonical data を読み込み、insight抽出・metrics計算を行う。ds-view/kenja の入力源。「insight抽出」,ai,OK,110,5264545,,wsl/.skills,2026-09-25T02:50:23
+ds-view,9a455379,ds-view,表示層。ds-insighter の insights.jsonl + metrics.jsonl を読み込み、HTMLダッシュボードまたはCLI表示にレンダリングする。「ダッシュボード表示」「ins,ai,OK,55,52324,,wsl/.skills,2026-09-25T02:50:23
+s006,07d8dabc,ext-install-skill,>-,other,OK,66,70550,,wsl/.skills,2026-09-25T02:50:23
+footer,0301844c,footer,>,vocab,OK,7,17652,,wsl/.skills,2026-09-25T02:50:23
+grill-me,b33b4ecc,grill-me,A relentless interview to sharpen a plan or design.,other,OK,35,29315,,wsl/.skills,2026-09-25T02:50:23
+s009,5ac55593,kenja,"エージェントアーキタイプ定義と決定論的発話エンジン。ds-insighter の insights.jsonl / metrics.jsonl を読み、インスタンス（hiroyuki, socrate",ai,OK,48,47815,,wsl/.skills,2026-09-25T02:50:23
+lx,8f9a922c,lx,LX（Language X / 言語の型）。英単語オントロジに沿って、難しそうな語を文脈から獲得し、短い和訳・用法・学習状態を登録するラッパースキル。起動ワード「lx」「LXして」「英単語」「語彙」「,ai,OK,1,3154,,wsl/.skills,2026-09-25T02:50:23
+mimic-me,20e63443,mimic-me,ユーザー(bons)の口癖・文体を集計して再現する。ユーザーに代わって短い返信・コミットメッセージ・Issue本文・チャット文案・日記を書くとき、「口癖」「真似して」「わたしっぽく」「俺の文体で」「b,editor,OK,35,40828,,wsl/.skills,2026-09-25T02:50:23
+mx,d7f890c4,mx,MX（Marketing Transformation / マーケティング・トランスフォーメーション）フレームワーク。リポジトリ bonsai/MX の実践モデルに沿って、市場を観測し顧客との関係を設,ai,OK,1,4656,,wsl/.skills,2026-09-25T02:50:23
+pain-sense,a29793e7,pain-sense,>,research,OK,1,4338,,wsl/.skills,2026-09-25T02:50:23
+pi-config-memo,616b51c0,pi-config-memo,"Pi (pi-coding-agent, the terminal AI coding agent) の設定・構成ファイルの場所と編集方法を覚えておくためのメモ。Pi のデフォルトモデル・プロバイダ・",opencode,OK,32,33187,,wsl/.skills,2026-09-25T02:50:23
+recap,a3a6e0df,recap,>,other,OK,1,3458,,wsl/.skills,2026-09-25T02:50:23
+skill-consolidator,36dcb57c,skill-consolidator,ばらけたスキルを一か所（C:\Users\0501JP\.config\opencode\skills、単一ソース）へ集約し、重複・壊れリンク・フロントマターを是正する。「スキルをまとめる」「スキル集,inventory,OK,32,35773,,wsl/.skills,2026-09-25T02:50:23
+skill-crawler,274b0212,skill-crawler,全プラットフォーム（Windows / WSL / repos）から「使えるスキル」を探索して棚卸しする。「skillクローラ」「skill crawler」「スキルを探す」「スキル棚卸し」「全部のス,inventory,OK,32,35986,,wsl/.skills,2026-09-25T02:50:23
+s018,811bfbf0,supervised-delegation,"""Delegate coding to Claude Code CLI (features, PRs).""",other,OK,64,162786,,wsl/.skills,2026-09-25T02:50:23
+s019,02b00002,sync-db,Multi-device SQLite sync toolkit. CLI `sdb` commands for export/import/memory-extract/memory-ingest/,sync,OK,146,1356964,,wsl/.skills,2026-09-25T02:50:23
+tips-word,5ac68d57,tips-word,>,vocab,OK,32,34511,,wsl/.skills,2026-09-25T02:50:23
+tsumete,0e740139,tsumete,計画や仕様を実装前に問い詰めて明確にする。,other,OK,32,29100,,wsl/.skills,2026-09-25T02:50:23
+uipath-admin,4692acbb,uipath-admin,"""UiPath Admin via `uip admin` — Identity Server (users, groups, robot accounts, external OAuth2 apps",rpa,OK,29,297223,,wsl/.skills,2026-09-25T02:50:23
+uipath-agents,12e63343,uipath-agents,"""End-to-end work with UiPath Agents of all types: build, integrate with UiPath Products (e.g., Orche",rpa,OK,81,846147,,wsl/.skills,2026-09-25T02:50:23
+uipath-api-workflow,4c66c11c,uipath-api-workflow,"""UiPath API Workflow assistant — author, run, validate, package, publish, deploy, and troubleshoot J",rpa,OK,18,309328,,wsl/.skills,2026-09-25T02:50:23
+uipath-automation-discovery,5a99855c,uipath-automation-discovery,"""UiPath automation discovery — mines Slack/email/wikis/CRM/HRIS/ERP for repetitive work, SPOFs, and ",rpa,OK,7,37697,,wsl/.skills,2026-09-25T02:50:23
+uipath-automationhub,5898f74c,uipath-automationhub,"""Publish and read business processes in UiPath Automation Hub via the Open API, using the user's clo",rpa,OK,8,58293,,wsl/.skills,2026-09-25T02:50:23
+uipath-coded-apps,c5e16e2a,uipath-coded-apps,"""UiPath Coded Apps — scaffold, build, run, and deploy Coded Web Apps and Coded Action Apps: React/Ty",rpa,OK,57,828349,,wsl/.skills,2026-09-25T02:50:23
+uipath-connector-builder,33869de0,uipath-connector-builder,"""UiPath Integration Service connector authoring (REST+JSON) on disk via `uip is connectors builder`.",rpa,OK,11,114557,,wsl/.skills,2026-09-25T02:50:23
+uipath-feedback,9a473ec6,uipath-feedback,"""UiPath bug reports and improvement suggestions via `uip feedback send`. Use for 'report issue', 'se",rpa,OK,2,19605,,wsl/.skills,2026-09-25T02:50:23
+uipath-functions,c1406e64,uipath-functions,"""UiPath Coded Functions — deterministic Python units built via `uip function` (new/init/run/pack/pub",rpa,OK,2,11757,,wsl/.skills,2026-09-25T02:50:23
+uipath-governance,16f4fcb8,uipath-governance,"""UiPath governance via `uip gov` — author, deploy, and diagnose policies on three layers. AOps produ",rpa,OK,43,495702,,wsl/.skills,2026-09-25T02:50:23
+uipath-human-in-the-loop,331129dc,uipath-human-in-the-loop,"""UiPath Human-in-the-Loop / HITL node authoring — building approval gates, escalations, write-back v",rpa,OK,7,112348,,wsl/.skills,2026-09-25T02:50:23
+uipath-insights,a02b7416,uipath-insights,"""UiPath Insights job monitoring via `uip insights` — query job execution metrics, failure analysis, ",rpa,OK,5,28984,,wsl/.skills,2026-09-25T02:50:23
+uipath-ixp,c4922e51,uipath-ixp,"""UiPath IXP (Document Understanding) via `uip ixp` — create projects (with autopilot taxonomy sugges",rpa,OK,7,130183,,wsl/.skills,2026-09-25T02:50:23
+uipath-maestro-bpmn,d845263d,uipath-maestro-bpmn,"""UiPath Maestro BPMN / Process Orchestration: author (registry-driven), validate, package, operate, ",rpa,OK,17,224468,,wsl/.skills,2026-09-25T02:50:23
+uipath-maestro-case,2cf8347a,uipath-maestro-case,"""Always invoke for UiPath Maestro Case Management build work: `caseplan.json`, `sdd.md`, or building",rpa,OK,67,967333,,wsl/.skills,2026-09-25T02:50:23
+uipath-maestro-flow,5bbbccb5,uipath-maestro-flow,"""TRIGGER for `.flow` files, UiPath Flow / Maestro Flow build or edit requests, adding or listing IXP",rpa,OK,95,954345,,wsl/.skills,2026-09-25T02:50:23
+uipath-mcp-servers,362d5f44,uipath-mcp-servers,"""UiPath AgentHub MCP server registration + resource-tool authoring via `uip agenthub mcp` (six serve",rpa,OK,2,10086,,wsl/.skills,2026-09-25T02:50:23
+uipath-planner,63efe8a8,uipath-planner,"""UiPath solution planner & designer. Always invoke for PDD / SDD files (`pdd.md`, `*-sdd.md`). Autho",rpa,OK,30,663705,,wsl/.skills,2026-09-25T02:50:23
+uipath-platform,08546f8a,uipath-platform,"""UiPath platform ops via the uip CLI — use for ANY task hitting UiPath Cloud / Orchestrator / Studio",rpa,OK,42,444104,,wsl/.skills,2026-09-25T02:50:23
+uipath-process-mining,4e50ccc8,uipath-process-mining,"""UiPath Process Mining via `uip pm` — build and operate a process app end-to-end from a CSV / event ",rpa,OK,10,63864,,wsl/.skills,2026-09-25T02:50:23
+uipath-review,43d24ee5,uipath-review,"""UiPath read-only reviewer — audit structure, quality, best practices for RPA (.xaml/.cs), agents (.",rpa,OK,25,466290,,wsl/.skills,2026-09-25T02:50:23
+uipath-rpa,843c6816,uipath-rpa,"""Always invoke for `.xaml` or `.cs` workflow files. UiPath RPA — create, edit, build, run, debug `.c",rpa,OK,703,3539641,,wsl/.skills,2026-09-25T02:50:23
+uipath-skill-catalog,3c95694a,uipath-skill-catalog,"""Use first for UiPath requests when selecting among installed UiPath skills. Provides progressive di",rpa,OK,4,75452,,wsl/.skills,2026-09-25T02:50:23
+uipath-solution,f5c9ce3c,uipath-solution,"""Always invoke for `.uipx` files. UiPath Solution lifecycle via the `uip solution` CLI: init/restore",rpa,OK,13,124496,,wsl/.skills,2026-09-25T02:50:23
+uipath-tasks,239a69dd,uipath-tasks,"""UiPath Action Center human-in-the-loop tasks via `uip tasks`: list, assign, complete, plus task cat",rpa,OK,9,30923,,wsl/.skills,2026-09-25T02:50:23
+uipath-test,db1d12c1,uipath-test,"""UiPath Test Manager — manage test projects, cases, sets, executions; generate reports; package and ",rpa,OK,5,65153,,wsl/.skills,2026-09-25T02:50:23
+uipath-troubleshoot,29190358,uipath-troubleshoot,"""UiPath causal investigation across every product, runtime, and activity package. Use when the prima",rpa,OK,455,2449164,,wsl/.skills,2026-09-25T02:50:23
+vocab-highlight,e6813c36,vocab-highlight,返信の中の難しい英単語を太字＋日本語グロスで目立たせ、さらに返信末尾に「Tips 単語コーナー」を append して IT・マーケティング・各ドメインの専門用語を少しずつ増やす。起動ワード「難しい英,vocab,OK,32,37105,,wsl/.skills,2026-09-25T02:50:23
+win-tips,9f822e30,win-tips,Windows 11 の小技・自動化スクリプト集。実体は C:\Users\0501JP\win-tips。「win-tips」「Windowsの小技」「Windows tips」「小技」「Copil,opencode,OK,32,34129,,wsl/.skills,2026-09-25T02:50:23
+writing,ee871105,writing,W（Writing / 文章のための層）。文章を書く・整える・売れる形にするための実践スキル。ブログ記事、技術書、企画書、解説、note/Zenn、原稿の執筆・推敲・構成に使う。起動ワード「writi,ai,OK,32,34986,,wsl/.skills,2026-09-25T02:50:23
+wx,2eb0f31d,wx,WX（Work X / Agent Experience）。リポジトリ bonsai/WX の定義に沿って、Agent Experience を実際の Work として回す。基本ループは MX（見つけ,ai,OK,1,5406,,wsl/.skills,2026-09-25T02:50:23

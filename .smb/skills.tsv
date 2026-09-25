@@ -1,0 +1,53 @@
+dir	name	description	files	size_mb
+ax	ax	AX（Agent Operational Ontology / エージェント運用オントロジー）。リポジトリ bonsai/AX の定義に沿って、エージェントが「何であるか（BE）」と「何ができるか（D	1	0.0
+bqmlite	bqmlite	ローカルの SQLite/CSV を BQMLite (bonsai/bqmlite-go) で学習・予測する。BigQuery も MLフレームワークも使わず、決定的(deterministic)に	2	0.0
+char-distribution	char-distribution	文章中の文字種・言語の割合（英語/日本語/中文/emoji/その他）を簡易計測する。文字分散、言語比率、文字種の割合、英語と日本語のミックス確認、「何%英語か」「言語の割合を測って」「lang rat	34	0.0
+ds-insighter	ds-insighter	解析・洞察エンジン。sync-db の JSONL canonical data を読み込み、insight抽出・metrics計算を行う。ds-view/kenja の入力源。「insight抽出」	110	5.0
+ds-view	ds-view	表示層。ds-insighter の insights.jsonl + metrics.jsonl を読み込み、HTMLダッシュボードまたはCLI表示にレンダリングする。「ダッシュボード表示」「ins	55	0.0
+ext-install-skill	crx-install	>-	66	0.1
+footer	footer	>	7	0.0
+grill-me	grill-me	A relentless interview to sharpen a plan or design.	35	0.0
+kenja	kenja	エージェントアーキタイプ定義と決定論的発話エンジン。ds-insighter の insights.jsonl / metrics.jsonl を読み、インスタンス（hiroyuki, socrate	48	0.0
+lx	lx	LX（Language X / 言語の型）。英単語オントロジに沿って、難しそうな語を文脈から獲得し、短い和訳・用法・学習状態を登録するラッパースキル。起動ワード「lx」「LXして」「英単語」「語彙」「	1	0.0
+mimic-me	mimic-me	ユーザー(bons)の口癖・文体を集計して再現する。ユーザーに代わって短い返信・コミットメッセージ・Issue本文・チャット文案・日記を書くとき、「口癖」「真似して」「わたしっぽく」「俺の文体で」「b	35	0.0
+mx	mx	MX（Marketing Transformation / マーケティング・トランスフォーメーション）フレームワーク。リポジトリ bonsai/MX の実践モデルに沿って、市場を観測し顧客との関係を設	1	0.0
+pain-sense	pain-sense	>	1	0.0
+pi-config-memo	pi-config-memo	Pi (pi-coding-agent, the terminal AI coding agent) の設定・構成ファイルの場所と編集方法を覚えておくためのメモ。Pi のデフォルトモデル・プロバイダ・	32	0.0
+recap	recap	>	1	0.0
+skill-consolidator	skill-consolidator	ばらけたスキルを一か所（C:\Users\0501JP\.config\opencode\skills、単一ソース）へ集約し、重複・壊れリンク・フロントマターを是正する。「スキルをまとめる」「スキル集	32	0.0
+skill-crawler	skill-crawler	全プラットフォーム（Windows / WSL / repos）から「使えるスキル」を探索して棚卸しする。「skillクローラ」「skill crawler」「スキルを探す」「スキル棚卸し」「全部のス	32	0.0
+supervised-delegation	claude-code	"""Delegate coding to Claude Code CLI (features, PRs)."""	64	0.2
+sync-db	sync-db	Multi-device SQLite sync toolkit. CLI `sdb` commands for export/import/memory-extract/memory-ingest/	146	1.3
+tips-word	tips-word	>	32	0.0
+tsumete	tsumete	計画や仕様を実装前に問い詰めて明確にする。	32	0.0
+uipath-admin	uipath-admin	"""UiPath Admin via `uip admin` — Identity Server (users, groups, robot accounts, external OAuth2 apps"	29	0.3
+uipath-agents	uipath-agents	"""End-to-end work with UiPath Agents of all types: build, integrate with UiPath Products (e.g., Orche"	81	0.8
+uipath-api-workflow	uipath-api-workflow	"""UiPath API Workflow assistant — author, run, validate, package, publish, deploy, and troubleshoot J"	18	0.3
+uipath-automation-discovery	uipath-automation-discovery	"""UiPath automation discovery — mines Slack/email/wikis/CRM/HRIS/ERP for repetitive work, SPOFs, and "	7	0.0
+uipath-automationhub	uipath-automationhub	"""Publish and read business processes in UiPath Automation Hub via the Open API, using the user's clo"	8	0.1
+uipath-coded-apps	uipath-coded-apps	"""UiPath Coded Apps — scaffold, build, run, and deploy Coded Web Apps and Coded Action Apps: React/Ty"	57	0.8
+uipath-connector-builder	uipath-connector-builder	"""UiPath Integration Service connector authoring (REST+JSON) on disk via `uip is connectors builder`."	11	0.1
+uipath-feedback	uipath-feedback	"""UiPath bug reports and improvement suggestions via `uip feedback send`. Use for 'report issue', 'se"	2	0.0
+uipath-functions	uipath-functions	"""UiPath Coded Functions — deterministic Python units built via `uip function` (new/init/run/pack/pub"	2	0.0
+uipath-governance	uipath-governance	"""UiPath governance via `uip gov` — author, deploy, and diagnose policies on three layers. AOps produ"	43	0.5
+uipath-human-in-the-loop	uipath-human-in-the-loop	"""UiPath Human-in-the-Loop / HITL node authoring — building approval gates, escalations, write-back v"	7	0.1
+uipath-insights	uipath-insights	"""UiPath Insights job monitoring via `uip insights` — query job execution metrics, failure analysis, "	5	0.0
+uipath-ixp	uipath-ixp	"""UiPath IXP (Document Understanding) via `uip ixp` — create projects (with autopilot taxonomy sugges"	7	0.1
+uipath-maestro-bpmn	uipath-maestro-bpmn	"""UiPath Maestro BPMN / Process Orchestration: author (registry-driven), validate, package, operate, "	17	0.2
+uipath-maestro-case	uipath-maestro-case	"""Always invoke for UiPath Maestro Case Management build work: `caseplan.json`, `sdd.md`, or building"	67	0.9
+uipath-maestro-flow	uipath-maestro-flow	"""TRIGGER for `.flow` files, UiPath Flow / Maestro Flow build or edit requests, adding or listing IXP"	95	0.9
+uipath-mcp-servers	uipath-mcp-servers	"""UiPath AgentHub MCP server registration + resource-tool authoring via `uip agenthub mcp` (six serve"	2	0.0
+uipath-planner	uipath-planner	"""UiPath solution planner & designer. Always invoke for PDD / SDD files (`pdd.md`, `*-sdd.md`). Autho"	30	0.6
+uipath-platform	uipath-platform	"""UiPath platform ops via the uip CLI — use for ANY task hitting UiPath Cloud / Orchestrator / Studio"	42	0.4
+uipath-process-mining	uipath-process-mining	"""UiPath Process Mining via `uip pm` — build and operate a process app end-to-end from a CSV / event "	10	0.1
+uipath-review	uipath-review	"""UiPath read-only reviewer — audit structure, quality, best practices for RPA (.xaml/.cs), agents (."	25	0.4
+uipath-rpa	uipath-rpa	"""Always invoke for `.xaml` or `.cs` workflow files. UiPath RPA — create, edit, build, run, debug `.c"	703	3.4
+uipath-skill-catalog	uipath-skill-catalog	"""Use first for UiPath requests when selecting among installed UiPath skills. Provides progressive di"	4	0.1
+uipath-solution	uipath-solution	"""Always invoke for `.uipx` files. UiPath Solution lifecycle via the `uip solution` CLI: init/restore"	13	0.1
+uipath-tasks	uipath-tasks	"""UiPath Action Center human-in-the-loop tasks via `uip tasks`: list, assign, complete, plus task cat"	9	0.0
+uipath-test	uipath-test	"""UiPath Test Manager — manage test projects, cases, sets, executions; generate reports; package and "	5	0.1
+uipath-troubleshoot	uipath-troubleshoot	"""UiPath causal investigation across every product, runtime, and activity package. Use when the prima"	455	2.3
+vocab-highlight	vocab-highlight	返信の中の難しい英単語を太字＋日本語グロスで目立たせ、さらに返信末尾に「Tips 単語コーナー」を append して IT・マーケティング・各ドメインの専門用語を少しずつ増やす。起動ワード「難しい英	32	0.0
+win-tips	win-tips	Windows 11 の小技・自動化スクリプト集。実体は C:\Users\0501JP\win-tips。「win-tips」「Windowsの小技」「Windows tips」「小技」「Copil	32	0.0
+writing	writing	W（Writing / 文章のための層）。文章を書く・整える・売れる形にするための実践スキル。ブログ記事、技術書、企画書、解説、note/Zenn、原稿の執筆・推敲・構成に使う。起動ワード「writi	32	0.0
+wx	wx	WX（Work X / Agent Experience）。リポジトリ bonsai/WX の定義に沿って、Agent Experience を実際の Work として回す。基本ループは MX（見つけ	1	0.0

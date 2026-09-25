@@ -1,0 +1,39 @@
+{
+  "generated": "2026-09-25",
+  "total": 3,
+  "questions": [
+    {
+      "word": "exemplify",
+      "en": "... exemplify ...",
+      "choices": [
+        "究極の",
+        "~の好例である",
+        "(疑問などを)心にとどめる・検討する"
+      ],
+      "answer": "~の好例である",
+      "jp": "~の好例である"
+    },
+    {
+      "word": "ultimate",
+      "en": "Simplicity is the ultimate sophistication.",
+      "choices": [
+        "(疑問などを)心にとどめる・検討する",
+        "究極の",
+        "~の好例である"
+      ],
+      "answer": "究極の",
+      "jp": "究極の"
+    },
+    {
+      "word": "entertain",
+      "en": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+      "choices": [
+        "(疑問などを)心にとどめる・検討する",
+        "~の好例である",
+        "究極の"
+      ],
+      "answer": "(疑問などを)心にとどめる・検討する",
+      "jp": "(疑問などを)心にとどめる・検討する"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: BX
+meaning: Business X
+type: businessperson
+subject: work / handover
+actor: businessperson
+policy: register_by_real_name
+registered: 0
+max_philosophers: 9
+
+registry: []
+
+cycle:
+  - receive
+  - understand
+  - own
+  - operate
+  - handover
+
+outputs:
+  - ownership
+  - decision
+  - operation
+  - handover_record
+
+relations:
+  px: philosopher_type
+  sx: scientist_type
+  ax: agent_executes
+  wx: writing
+  bx: inherit_and_own_work

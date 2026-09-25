@@ -1,0 +1,194 @@
+[
+  {
+    "name": "bons.ai",
+    "from": "agt/",
+    "category": "agt",
+    "files": 6
+  },
+  {
+    "name": "ai-feelings",
+    "from": "txt/",
+    "category": "agt",
+    "files": 2
+  },
+  {
+    "name": "talk-db",
+    "from": "txt/",
+    "category": "txt",
+    "files": 10
+  },
+  {
+    "name": "rakugo-generator",
+    "from": "txt/",
+    "category": "txt",
+    "files": 5
+  },
+  {
+    "name": "pain",
+    "from": "txt/",
+    "category": "agt",
+    "files": 3
+  },
+  {
+    "name": "genkou",
+    "from": "txt/",
+    "category": "tool",
+    "files": 9
+  },
+  {
+    "name": "talkscripts",
+    "from": "txt/",
+    "category": "txt",
+    "files": 9
+  },
+  {
+    "name": "research-rakugo",
+    "from": "txt/",
+    "category": "txt",
+    "files": 18
+  },
+  {
+    "name": "kankyou-hub",
+    "from": "data/",
+    "category": "data",
+    "files": 12
+  },
+  {
+    "name": "output",
+    "from": "data/",
+    "category": "tool",
+    "files": 7
+  },
+  {
+    "name": "lm-hex-eval",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "python-status",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "chatgpt-ext",
+    "from": "tool/",
+    "category": "tool",
+    "files": 18
+  },
+  {
+    "name": "wt-startdir",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "serve-html",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "gen-favicon",
+    "from": "tool/",
+    "category": "tool",
+    "files": 8
+  },
+  {
+    "name": "outlook-draft",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "leanvj",
+    "from": "tool/",
+    "category": "tool",
+    "files": 8
+  },
+  {
+    "name": "bqmlite-go",
+    "from": "tool/",
+    "category": "tool",
+    "files": 8
+  },
+  {
+    "name": "wsl-migrate",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "android-ftp-sync",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "yoshimoto-theater",
+    "from": "tool/",
+    "category": "tool",
+    "files": 6
+  },
+  {
+    "name": "exercise-automation",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "hakkutu",
+    "from": "tool/",
+    "category": "tool",
+    "files": 3
+  },
+  {
+    "name": "TORISETSU",
+    "from": "tool/",
+    "category": "tool",
+    "files": 4
+  },
+  {
+    "name": "wf-errors",
+    "from": "tool/",
+    "category": "tool",
+    "files": 21
+  },
+  {
+    "name": "portmanager",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "check-repos",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "scoop-java-kotlin-clj",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "svn-skill",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  },
+  {
+    "name": "progressive-life-temp",
+    "from": "tool/",
+    "category": "tool",
+    "files": 16
+  },
+  {
+    "name": "issue-md2wf",
+    "from": "tool/",
+    "category": "tool",
+    "files": 0
+  }
+]
